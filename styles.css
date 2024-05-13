@@ -50,7 +50,7 @@ nav a {
 }
 
 .contenido img {
-    width: 60%;
+    width:40%;
     height: auto;
     border-radius: 10px;
     margin-right: 2rem;
@@ -100,4 +100,104 @@ footer {
     text-align: center;
     color: #fff;
     margin-top: 2rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+main {
+    padding: 2rem;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+figure img {
+    width: 95%;
+    height: auto;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+.texto {
+    width: 65%;
+}
+
+.texto p {
+    margin-bottom: 1rem;
+}
+
+#suscripcion {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+#suscripcion form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#suscripcion label {
+    margin-bottom: 1rem;
+}
+
+#suscripcion input[type="email"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#suscripcion button[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+#suscripcion button[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
 }
